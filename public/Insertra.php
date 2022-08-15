@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO devicestate (device, temperatura, humedad)
-VALUES ('12', 'jajaj', 'hhhh')";
+VALUES ('13', 'jajaj', 'hhhh')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
